@@ -12,15 +12,25 @@
     "generate": "drizzle-kit generate:pg",
     "drop": "drizzle-kit drop",
     "check": "drizzle-kit check:pg",
-    "up": "drizzle-kit up:pg"
+    "up": "drizzle-kit up:pg",
+    "migrate": "node run src/lib/supabase/migration.ts"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "dotenv": "^16.3.1",
     "drizzle-orm": "^0.29.1",
+    "lucide-react": "^0.298.0",
     "next": "14.0.4",
+    "next-themes": "^0.2.1",
     "postgres": "^3.4.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.1.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
