@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1702792642045,
+      "tag": "0000_right_ravenous",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1702793116360,
+      "tag": "0001_mighty_makkari",
+      "breakpoints": true
+    }
+  ]
+}
