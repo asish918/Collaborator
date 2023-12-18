@@ -1,10 +1,6 @@
 import { InferSelectModel } from 'drizzle-orm';
 import {
-  customers,
   folders,
-  prices,
-  products,
-  subscriptions,
   users,
   workspaces,
 } from '../../../migrations/schema';
@@ -186,8 +182,8 @@ export interface Database {
           description?: string | null;
           id: string;
           interval?:
-            | Database['public']['Enums']['pricing_plan_interval']
-            | null;
+          | Database['public']['Enums']['pricing_plan_interval']
+          | null;
           interval_count?: number | null;
           metadata?: Json | null;
           product_id?: string | null;
@@ -201,8 +197,8 @@ export interface Database {
           description?: string | null;
           id?: string;
           interval?:
-            | Database['public']['Enums']['pricing_plan_interval']
-            | null;
+          | Database['public']['Enums']['pricing_plan_interval']
+          | null;
           interval_count?: number | null;
           metadata?: Json | null;
           product_id?: string | null;
@@ -403,13 +399,13 @@ export interface Database {
       pricing_plan_interval: 'day' | 'week' | 'month' | 'year';
       pricing_type: 'one_time' | 'recurring';
       subscription_status:
-        | 'trialing'
-        | 'active'
-        | 'canceled'
-        | 'incomplete'
-        | 'incomplete_expired'
-        | 'past_due'
-        | 'unpaid';
+      | 'trialing'
+      | 'active'
+      | 'canceled'
+      | 'incomplete'
+      | 'incomplete_expired'
+      | 'past_due'
+      | 'unpaid';
     };
     CompositeTypes: {
       [_ in never]: never;
@@ -421,13 +417,3 @@ export type workspace = InferSelectModel<typeof workspaces>;
 export type User = InferSelectModel<typeof users>;
 export type Folder = InferSelectModel<typeof folders>;
 export type File = InferSelectModel<typeof files>;
-export type Product = InferSelectModel<typeof products>;
-export type Price = InferSelectModel<typeof prices> & { products?: Product };
-export type Customer = InferSelectModel<typeof customers>;
-export type Subscription = InferSelectModel<typeof subscriptions> & {
-  prices: Price;
-};
-
-export type ProductWirhPrice = Product & {
-  prices?: Price[];
-};
