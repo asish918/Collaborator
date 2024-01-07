@@ -48,7 +48,8 @@ A collaborative workspace manager built using NextJS, ShadCn UI powered by Supab
 ## About The Project
 
 ![Product Name Screen Shot][product-screenshot]
-[Click to view video](readme_assets/demo.mp4)
+
+https://github.com/asish918/Collaborator/assets/77532867/035deed1-f6dc-4422-aa5c-372b734b59db
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,9 +129,9 @@ Project Link: [ https://github.com/asish918/Collaborator](https://github.com/asi
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[stars-shield]: https://img.shields.io/github/stars/asish918/NextJS-Hotel-Booking.svg?style=for-the-badge
-[stars-url]: https://github.com/asish918/NextJS/stargazers
-[license-shield]: https://img.shields.io/github/license/asish918/NextJS-Hotel-Booking.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/asish918/Collaborator.svg?style=for-the-badge
+[stars-url]: https://github.com/asish918/Collaborator/stargazers
+[license-shield]: https://img.shields.io/github/license/asish918/Collaborator.svg?style=for-the-badge
 [license-url]: https://github.com/asish918/Collaborator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/asishmahapatra918
